@@ -9,7 +9,7 @@ html{
     background-color: white;
     color: rgba(0, 0, 0, 0.445);
     text-rendering: optimizeLegibility;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Lato;
     background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../img/tree_background.jpeg);
     background-size:cover;
     width: 100%;
