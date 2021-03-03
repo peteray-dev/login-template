@@ -1,0 +1,86 @@
+/* for big tablet to small computers range 1024px to 1200px */
+@media only screen and (max-width: 1200px){
+
+}
+
+
+
+
+/* for small tablet to big tablet range 788px to 1023px */
+@media only screen and (max-width:1023px){
+    html{
+        font-size: 16px;
+    }
+    .wrapper-nav{width: 100%;}
+    .nav ul{
+        margin-left:  40px;
+    }
+    .nav ul li{margin-right: 10px;}
+    .nav ul li a{font-size: 80%;}
+    .search-box{width: 65%;}
+    .content-wrapper{display: flex; flex-basis: 100%; margin-top: 80px;}
+    .wrap-content{
+        flex-basis: 100%;
+        justify-items: left;
+    }
+    .wrap-bg{width: 80%; margin-left: 20px;}
+    .wrap-login{margin: 30px auto;}
+    .log-input{
+        margin-bottom: 40px;
+    }
+}
+
+
+/* for small phones to small tablet range 481px-787px */
+@media only screen and (max-width:787px){
+    html{
+        font-size: 14px;
+    }
+    .wrapper-nav{width: 100%;}
+    .head{
+        margin: 40px 40px;
+    }
+    .nav ul{
+        margin-left:  20px;
+    }
+    .nav ul li{margin-right: 5px;}
+    .nav ul li a{font-size: 80%;}
+    .search-box{width: 60%;}
+    .btn, .search-box{padding: 5px;}
+    .content-wrapper{margin-top: 40px;}
+    .word-para{font-size: 70%;}
+    .wrap-bold{font-size: 80%;width: 80%;}
+}
+
+
+/* for small phones ranging from 0px to 480px */
+
+@media only screen and (max-width: 480px){
+    html{
+        font-size: 12px;
+    }
+    .head{
+        margin: 30px 15px;
+    }
+    .logo{font-size: 90%;}
+    .nav ul{
+        margin-left: 10px;
+    }
+    .nav ul li {font-size: 90%;  margin-right: 5px;}
+   
+    .content-wrapper{margin-top: 30px;}
+    .nav ul li a{font-size: 70%;}
+    .btn{padding: 3px;}
+    .search-box{padding: 1px;}
+    .word-para{margin-bottom: 10px; font-size: 60%;}
+    .wrap-bold{width: 80%; margin-bottom: 20px; font-size: 70%;}
+    .wrap-bg{margin-left: 10px; width:80%;}
+    .wrap-login{margin: 10px auto;}
+    .log h2{font-size: 100%;}
+    .log-input{margin: 1% auto;}
+    .log-email{padding: 10px; margin-bottom: 10px;}
+    .signup .btn{margin-bottom: 10px;}
+    .signup p{font-size: 60%;}
+    .log-email[placeholder]{font-size: 80%;}
+    .btn{font-size: 80%;}
+}

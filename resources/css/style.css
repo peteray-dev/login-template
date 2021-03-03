@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 18px;
+    font-weight: 300;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.445);
+    text-rendering: optimizeLegibility;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../../img/tree_background.jpeg);
+    background-size:cover;
+    width: 100%;
+    height: auto;
+}
+
+/* ------------------------------------ */
+/* Header */
+/* ------------------------------------ */
+
+.head{
+    margin: 40px 100px;
+}
+h2{
+    color: #e67e22;
+}
+.wrapper-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav ul{
+    margin-left:100px;
+}
+.nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+.nav ul li a{
+    text-decoration: none; 
+    color: white;
+    text-transform: uppercase;
+    font-size: 90%;
+}
+
+.search-box{
+    outline: none;
+    padding: 8px;
+    background-color: transparent;
+    border: 1px solid #e67e22 ;
+    border-radius: 5px;
+}
+.btn{
+    background-color: #e67e22;
+    color: white;
+    padding: 8px;
+    margin-left: 0px;
+    border: 1px solid #e67e22 ;
+    border-radius: 5px;
+}
+
+/* ------------------------------ */
+.content-wrapper{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+}
+.wrap-content{
+    flex-basis: 50%;
+}
+.word-para{
+    font-size: 80%;
+    margin-bottom: 30px;
+    color: white;
+}
+.wrap-bold{
+    color: white;
+    word-spacing: 5px;
+    width: 60%;
+    font-size: 120%;
+    line-height: 250%;
+    margin-bottom: 50px;
+}
+.wrap-bold span{
+    color: #e67e22;
+    
+}
+.btn-contact{
+    padding: 8px 50px;
+}
+/* ----------------------- */
+.wrap-bg{
+    background-color: rgba(0, 0, 0, 0.7);
+    /* background-size: 50%; */
+    width: 30%;
+    
+}
+.wrap-login{
+    text-align: center;
+     margin: 20px auto;
+}
+
+.log-input{
+    margin: 5% auto;
+}
+.log-email{
+    width: 70%;
+    padding: 15px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #e67e22;
+}
+.log-email[placeholder]{
+    color: white;
+}
+.signup .btn{
+    width: 70%;
+    margin-bottom: 20px;
+}
+.signup p,
+.social p{
+    text-align: center;
+    color: white;
+    font-size: 80%;
+}
+.signup p a{
+    color: #e67e22;
+    text-decoration: none;
+}
+.social p{
+    font-size: 60%;
+    margin: 10px auto;
+}
+.social a{
+    color: white;
+    margin: 20px 5px;
+}
